@@ -1617,7 +1617,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 16pt;
+				font-size: 16pt!important;
 			}
 
 		}
@@ -1625,7 +1625,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 16pt;
+				font-size: 16pt!important;
 			}
 
 		}
@@ -2445,6 +2445,11 @@
 			.image.main img {
 				width: 100%;
 			}
+@media screen and (max-width: 736px) {
+img{
+width: 100%;
+	}
+}
 
 /* List */
 
