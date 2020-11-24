@@ -1609,7 +1609,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 28pt!important;
+				font-size: 32pt;
 			}
 
 		}
@@ -1617,7 +1617,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-    			font-size: 28pt!important;
+    			font-size: 32pt;
 }
 
 		}
@@ -1625,7 +1625,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 28pt!important;
+				font-size: 32pt;
 			}
 
 		}
@@ -3309,6 +3309,10 @@ width: 100%;
 
 			.navPanelToggle {
 				display: block;
+			}
+
+			.navPanelToggle *:before {
+				font-size:32px!important;
 			}
 
 		}
