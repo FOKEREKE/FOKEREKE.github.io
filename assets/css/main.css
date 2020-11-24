@@ -1609,7 +1609,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 16pt;
+				font-size: 28pt!important;
 			}
 
 		}
@@ -1617,7 +1617,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-    			font-size: 26pt;
+    			font-size: 28pt!important;
 }
 
 		}
@@ -1625,7 +1625,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 26pt!important;
+				font-size: 28pt!important;
 			}
 
 		}
@@ -3825,7 +3825,7 @@ width: 100%;
 
 	#footer {
 		background-color: #e5474b;
-		color: #f2a3a5;
+		color: #fbf0f0;
 		padding: 4em 0 2em 0;
 		background: #e5474b;
 	}
