@@ -1609,7 +1609,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 16pt;
 			}
 
 		}
@@ -1617,15 +1617,15 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 16pt!important;
-			}
+    			font-size: 26pt;
+}
 
 		}
 
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 16pt!important;
+				font-size: 26pt!important;
 			}
 
 		}
@@ -4035,8 +4035,8 @@ width: 100%;
 			#footer {
 				padding: 2em 0 0.1em 0;
 			}
-			#footer .inner {
+/* 			#footer .inner {
 				font-size:22px;
-			}
+			} */
 
 		}
