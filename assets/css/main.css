@@ -1609,7 +1609,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 26pt;
+				font-size: 20pt;
 			}
 
 		}
@@ -1617,7 +1617,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-    			font-size: 26pt;
+    			font-size: 20pt;
 }
 
 		}
@@ -1625,7 +1625,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 26pt!important;
+				font-size: 20pt!important;
 			}
 
 		}
