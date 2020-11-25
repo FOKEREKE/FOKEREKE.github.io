@@ -1609,7 +1609,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 20pt;
+				font-size: 24pt;
 			}
 
 		}
@@ -1617,7 +1617,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-    			font-size: 20pt;
+    			font-size: 24pt;
 }
 
 		}
@@ -1625,7 +1625,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 20pt!important;
+				font-size: 24pt!important;
 			}
 
 		}
@@ -3213,7 +3213,7 @@ width: 100%;
 			position: absolute;
 			top: 0;
 			color: #e5474b;
-			font-size: 1.75em;
+			font-size: 2em;
 			text-transform: none;
 			font-weight: normal;
 			padding: 0;
@@ -3284,6 +3284,7 @@ width: 100%;
 		width: 4em;
 		display: none;
 		z-index: 10002;
+		
 	}
 
 		.navPanelToggle:before {
@@ -3295,14 +3296,17 @@ width: 100%;
 			text-transform: none !important;
 			color: #fff;
 			display: block;
-			font-size: 16px;
 			height: 2.25em;
-			left: 0.5em;
+			left: 0.75em;
 			line-height: 2.25em;
 			position: absolute;
 			text-align: center;
-			top: 0.5em;
+			top: 0.25em;
 			width: 3.5em;
+		}
+
+		.fa-bars:before {
+			font-size:32pt!important;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3678,6 +3682,19 @@ width: 100%;
 			#one {
 				padding: 4em 0 2em 0;
 			}
+
+/*Mobile font sizing for one*/
+			#one .inner p, #one .inner div, #one .inner ul, #one .inner li, #two .inner ol {
+				font-size:30pt!important;
+			}
+/*Mobile font sizing for two*/
+			#two .inner p, #two .inner div, #two .inner ul, #two .inner li, #two .inner ol {
+				font-size:30pt!important;
+			}
+/*Mobile font sizing for main*/
+			#main .inner p, #main .inner div, #main .inner ul, #main .inner li, #main .inner ol {
+				font-size:30pt!important;
+}
 
 		}
 
