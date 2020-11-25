@@ -3280,7 +3280,7 @@ width: 100%;
 		text-decoration: none;
 		height: 4em;
 		right: 3em;
-		top: .75em;
+		top: 1.25em;
 		width: 4em;
 		display: none;
 		z-index: 10002;
@@ -3651,6 +3651,15 @@ width: 100%;
 				}
 
 		}
+
+		/*Grow effect from flexbox*/
+		.grow { 
+			transition: all .2s ease-in-out; 
+			}
+			
+			.grow:hover { 
+			transform: scale(1.1); 
+			}
 
 /* Main */
 
