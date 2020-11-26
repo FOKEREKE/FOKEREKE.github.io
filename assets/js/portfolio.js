@@ -8,9 +8,9 @@ document.querySelector(".thprev").addEventListener("click", () => {
 document.querySelector(".thnext").addEventListener("click", () => {
     computePortfolios(1)
 })
-//function computePortfolios(t) {showPortfolios((counter += t)) the remove last line
-function computePortfolios() {
-    showPortfolios((counter += 1))
+//to make interval, function computePortfolios() {showPortfolios((counter += 1)) the add last line
+function computePortfolios(t) {
+    showPortfolios((counter += t))
 }
 
 function showPortfolios(n) {
@@ -31,4 +31,4 @@ function showPortfolios(n) {
   portfolios[counter - 1].style.display = "flex"
 }
 
-setInterval(computePortfolios, 6000);
+//setInterval(computePortfolios, 6000);
