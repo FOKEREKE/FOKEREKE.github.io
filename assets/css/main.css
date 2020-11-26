@@ -2392,6 +2392,16 @@
 			display: none;
 		}
 
+/*FontAwesome*/
+i.fa.fa-graduation-cap, i.fa.fa-briefcase {
+    display: block;
+    font-size: 50pt!important;
+	text-align: -webkit-center!important;
+	color:#2d2d2d;
+	margin-bottom: 3%;
+}
+
+
 /* Image */
 
 	.image {
