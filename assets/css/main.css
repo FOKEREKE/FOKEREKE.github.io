@@ -3460,7 +3460,7 @@ width: 100%;
 		background-position: 15% left;
 		text-align: left;
 		position: relative;
-		z-index: 9999;
+		z-index: 9999!important;/*important for skateboard*/
 	}
 
 		#banner input, #banner select, #banner textarea {
